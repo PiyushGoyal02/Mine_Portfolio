@@ -1,0 +1,20 @@
+/* Ensure the body and html occupy the full viewport */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden; /* Prevent scrolling */
+}
+
+/* Make the video cover the entire viewport */
+.dark-video {
+    pointer-events: none; 
+    width: 100vw; /* Full viewport width */
+    height: 100vh; /* Full viewport height */
+    opacity: 95%;
+    object-fit: cover; /* Ensures the video fills the viewport */
+    object-position: center; /* Centers the video */
+    position: absolute; /* Ensures it's fixed in place */
+    top: 0;
+    left: 0;
+}
