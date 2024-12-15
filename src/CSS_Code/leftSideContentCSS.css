@@ -1,0 +1,174 @@
+
+
+
+
+/* Green Fade Box */
+.Fade-Green-Box {
+    width: 470px;
+    height: 600px;
+    background-color: #FFD700;
+    opacity: 50%;
+    position: absolute;
+    border-radius: 5px;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+
+/* Background Image Container */
+.background-Image-Hills {
+    position: relative;
+}
+
+/* Hills Image Styling */
+.Hills-Image {
+    position: absolute;
+    border-radius: 5px;
+    bottom: -300px;
+    left: 20px;
+    width: 480px;
+    height: 280px;
+    object-fit: cover;
+    object-position: center;
+    z-index: 2;
+}
+
+/* ContentBox Positioned */
+.ContentBox {
+    position: absolute;
+    bottom: 100px;
+    left: 20px;
+    width: 480px;
+    height: 350px;
+    background-color: #31313A;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    z-index: 3;
+}
+
+/* Fade Circle Positioned at the Top Center */
+.Fade-Circle {
+    position: absolute;
+    top: -45px; /* Position circle on top of ContentBox */
+    left: 50%;
+    transform: translateX(-50%);
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    background-color: #FFD700;
+    opacity: 50%;
+    z-index: 4;
+}
+
+/* Profile Image Aligned on the Green Circle */
+.ProfileImage {
+    position: absolute;
+    top: -53px; /* Move the image slightly up to center it on the circle */
+    left: 52.5%; /* Center horizontally */
+    transform: translateX(-50%) translateY(0); /* Perfect alignment adjustment */
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #31313A; /* Optional border for better separation */
+    z-index: 5; /* Place above all other layers */
+}
+
+.PiyushGoyal-Text{
+    margin-top: 65px;
+    color: #DADADA;
+    font-weight: bold;
+}
+
+
+
+.WebDeveloperText{
+    color: #FFD700;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+.All-Icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px; 
+    color: #DADADA;
+    font-size: 20px;
+    align-items: center;
+    transition: 0.5s; 
+}
+
+.All-Icons .linkdin:hover{
+    color: #0077B5;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.All-Icons .facebook:hover{
+    color: #1877F2;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.All-Icons .github:hover{
+    color: #171515;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.All-Icons .stackflow:hover{
+    color: #ef8236;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+
+
+
+/* Button Container Styling */
+.Button-Container {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    position: absolute;
+    bottom: 0; 
+    left: 0;
+    width: 100%; 
+    border-top: 1px solid #4A4A4A; 
+}
+
+/* Individual Button Styling */
+.Button {
+    flex: 1; 
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: #DADADA;
+    padding: 15px 0;
+    border-right: 1px solid #4A4A4A; 
+    cursor: pointer;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.Button:last-child {
+    border-right: none; 
+}
+
+/* Button Icons */
+.button-icon {
+    margin-left: 8px;
+    font-size: 14px;
+}
+
+/* Hover Effect */
+.Button:hover {
+    color: #FFD700;
+    transform: translateY(-2px);
+}
