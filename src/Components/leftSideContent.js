@@ -8,16 +8,18 @@ import { FaGithub } from "react-icons/fa";
 import { FaStackOverflow } from "react-icons/fa";
 import { FaDownload } from "react-icons/fa"; // For download icons
 import { FaArrowRight } from "react-icons/fa"; // For arrow icon
-
-
-const sentences = [
-  "FreeLancing",
-  "Web Developers",
-  "Full Stack Developers",
-  "UI/UX Designer",
-];
+import { useTypewriter, Cursor } from "react-simple-typewriter"
 
 function LeftSideContent() {
+
+    // Running Text
+    const [text] = useTypewriter({
+        words: ['Full Stack Developer', 'Freelancer', 'UI/UX Designer'],
+        loop:{},
+        delaySpeed: 2000, // Delay between loops
+        typeSpeed: 100, // Speed of typing
+        deleteSpeed: 50, // Speed of deleting
+    });
 
     return (
         <div className="LeftSideContentDiv">
@@ -33,13 +35,16 @@ function LeftSideContent() {
 
                     <h1 className="PiyushGoyal-Text">Piyush Goyal</h1>
 
-                     {/* <div className="running-text-container">
-                        <div className="running-text">
-                            {sentences[currentIndex]}
-                        </div>
-                    </div> */}
+                    <div className="Running-TExt-Div">
+                        {/* <h1>I'm</h1> */}
+                        <span className="Running-Text">
+                            {text}
+                        </span>
 
-                    <p className="WebDeveloperText">Web Developer</p>
+                        <span className="Cursor-Color">
+                            <Cursor cursorStyle='|'/>
+                        </span>
+                    </div>
 
                     {/* Social Media Icons */}
                     <div className="All-Icons">

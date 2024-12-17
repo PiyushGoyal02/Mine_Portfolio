@@ -6,7 +6,7 @@
 .Fade-Green-Box {
     width: 470px;
     height: 600px;
-    background-color: #FFD700;
+    background-color: #4A5568;
     opacity: 50%;
     position: absolute;
     border-radius: 5px;
@@ -40,7 +40,7 @@
     left: 20px;
     width: 480px;
     height: 350px;
-    background-color: #31313A;
+    background-color: #1E293B;
     border-radius: 5px;
     display: flex;
     justify-content: center;
@@ -56,7 +56,7 @@
     height: 90px;
     width: 90px;
     border-radius: 50%;
-    background-color: #FFD700;
+    background-color: #4A5568;
     opacity: 50%;
     z-index: 4;
 }
@@ -82,9 +82,25 @@
 }
 
 
+/* Running Text CSS Code */
+.Running-TExt-Div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Running-Text{
+    font-weight: bold;
+    color: #4A5568;
+}
+
+.Cursor-Color{
+    color: whitesmoke;
+}
+
 
 .WebDeveloperText{
-    color: #FFD700;
+    color: #4A5568;
     font-weight: 500;
     display: flex;
     align-items: center;
@@ -103,6 +119,7 @@
     font-size: 20px;
     align-items: center;
     transition: 0.5s; 
+    margin-top: 30px;
 }
 
 .All-Icons .linkdin:hover{
@@ -142,24 +159,25 @@
     left: 0;
     width: 100%; 
     border-top: 1px solid #4A4A4A; 
+    margin-bottom: 0; 
 }
 
-/* Individual Button Styling */
 .Button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     flex: 1; 
     text-align: center;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: bold;
     color: #DADADA;
     padding: 15px 0;
-    border-right: 1px solid #4A4A4A; 
+    border-right: 1px solid #4A4A4A;
+    height: 40px; 
     cursor: pointer;
     transition: color 0.3s, transform 0.3s;
 }
 
-.Button:last-child {
-    border-right: none; 
-}
 
 /* Button Icons */
 .button-icon {
@@ -169,6 +187,6 @@
 
 /* Hover Effect */
 .Button:hover {
-    color: #FFD700;
-    transform: translateY(-2px);
+    color: #4A5568;
+    transform: translateX(3px);
 }
