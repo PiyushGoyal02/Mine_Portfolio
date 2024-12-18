@@ -16,7 +16,7 @@ function DarkBackground() {
         Your browser does not support the video tag.
       </video>
 
-      {/* Overlay Content */}
+      {/* Left And Right Box Content */}
       <div className="LeftAndRightBoxContent">
         <div>
           <LeftSideContent />

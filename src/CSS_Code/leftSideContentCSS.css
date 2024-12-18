@@ -40,7 +40,7 @@
     left: 20px;
     width: 480px;
     height: 350px;
-    background-color: #1E293B;
+    background-color: #2A2D34;
     border-radius: 5px;
     display: flex;
     justify-content: center;
@@ -91,7 +91,7 @@
 
 .Running-Text{
     font-weight: bold;
-    color: #4A5568;
+    color: #3C9D9B;
 }
 
 .Cursor-Color{
@@ -187,6 +187,6 @@
 
 /* Hover Effect */
 .Button:hover {
-    color: #4A5568;
+    color: #3C9D9B;
     transform: translateX(3px);
 }

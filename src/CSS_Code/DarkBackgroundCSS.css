@@ -1,72 +1,25 @@
 /* Full screen container for video */
 .video-container {
-    position: relative;
-    width: 100vw;
-    height: 100vh;
-    overflow: hidden;
-    display: flex;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  /* overflow: hidden; */
+  display: flex;
 }
 
 /* Full screen video styling */
 .dark-video {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 1; /* Keeps the video behind the overlay content */
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1; /* Keeps the video behind the overlay content */
 }
 
 /* Overlay Content Styling */
-.overlay-content {
-    position: relative;
-    z-index: 2; 
-    /* width: 300px; 
-    height: 100%; 
-    padding: 20px;
-    background: rgba(0, 0, 0, 0.5); 
-    color: white; 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column; */
-}
-
-
-
-
-
-
-/* Custom Cursor Styling */
-.custom-cursor {
-  position: fixed;
-  width: 20px; /* Default cursor size */
-  height: 20px;
-  background-color: rgba(255, 140, 0, 0.6); /* Soft orange color */
-  border: 2px solid rgba(255, 255, 255, 0.5); /* Faded white border */
-  border-radius: 50%;
-  pointer-events: none; /* Allows interaction with elements */
-  transform: translate(-50%, -50%);
-  transition: width 0.2s ease, height 0.2s ease, background-color 0.2s ease;
-  z-index: 9999;
-}
-
-/* Hover State */
-.custom-cursor.hovered {
-  width: 50px; /* Increase size on hover */
-  height: 50px;
-  background-color: rgba(255, 140, 0, 0.3); /* Faded orange */
-}
-
-/* Content Styling */
-.content {
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: Arial, sans-serif;
-  text-align: center;
-  color: #ffffff;
-  background-color: #1e1e1e; /* Dark background for contrast */
+.LeftAndRightBoxContent {
+  position: relative;
+  z-index: 2;
 }

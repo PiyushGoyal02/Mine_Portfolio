@@ -1,6 +1,6 @@
 import "../CSS_Code/leftSideContentCSS.css";
 import { useEffect, useState } from "react";
-import BackgroundImage from "../Assets/Backgroud-image.jpg";
+import BackgroundImage from "../Assets/Walpaper.jpg";
 import ProfileImage from "../Assets/ProfileImage.jpg";
 import { FaLinkedinIn } from "react-icons/fa6";
 import { FaFacebook } from "react-icons/fa";
