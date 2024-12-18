@@ -1,0 +1,82 @@
+/* Overall container setup */
+.container {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+/* Center Circle */
+.center-circle {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background-color: #6c757d;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+/* Orbit Base */
+.orbit {
+  position: absolute;
+  border: 1px solid #4caf50;
+  border-radius: 50%;
+}
+
+/* Orbit 1 - Outer Circle - Rotate Left */
+.orbit-1 {
+  width: 350px;
+  height: 350px;
+  animation: rotate-left 10s infinite linear;
+}
+
+/* Orbit 2 - Inner Circle - Rotate Right */
+.orbit-2 {
+  width: 220px;
+  height: 220px;
+  animation: rotate-right 10s infinite linear;
+}
+
+/* Icons Setup */
+.icon {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  object-fit: contain; /* Ensures images scale properly */
+}
+
+/* Positioning for Orbit 1 Icons */
+.nodejs { bottom: 8%; left: 10%; transform: translate(-50%, -50%); }
+.html { bottom: 20%; left: 90%; transform: translate(-50%, 50%); }
+.docker { top: 22%; right: 8%; transform: translate(50%, -50%); }
+.aws { top: 0; right: 50%; transform: translate(50%, -50%); }
+.github { bottom: -10%; right: 50%; transform: translate(50%, -50%); }
+
+
+/* Positioning for Orbit 2 Icons */
+.react { top: 50%; left: 0; transform: translate(-50%, -50%); }
+.javascript { top: 0; right: 50%; transform: translate(50%, -50%); }
+.mongodb { bottom: 0; right: 50%; transform: translate(50%, 50%); }
+.figma { bottom: 78%; left: 9%; transform: translate(-50%, 50%); }
+.css { bottom: 50%; right: 1%; transform: translate(50%, 50%); }
+
+/* Rotation Animations */
+@keyframes rotate-right {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(-360deg); } 
+}
+
+@keyframes rotate-left {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); } 
+}

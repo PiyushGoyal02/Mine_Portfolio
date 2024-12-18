@@ -1,0 +1,30 @@
+.AboutSectionSecondDiv{
+    /* margin-left: 2%; */
+    padding: 2%;
+}
+
+.HR-Tag{
+    opacity: 15%;
+}
+
+.FirstAlphabetText{
+    margin-left: 4%;
+    color: #3C9D9B;
+}
+
+.HOne-Text{
+    color: #dadada;
+}
+
+.AboutUs-Text{
+    line-height: 1.5;
+    color: lightslategray;
+}
+
+.Hello-Piyush-Line{
+    font-weight: bold;
+}
+
+.Skill-Div{
+    margin-top: 12%;
+}

@@ -4,18 +4,17 @@
 
 /* Green Fade Box */
 .Fade-Green-Box {
-    width: 470px;
-    height: 600px;
-    background-color: #4A5568;
-    opacity: 50%;
-    position: absolute;
-    border-radius: 5px;
-    left: 0;
-    top: 0;
-    z-index: 1;
+  width: 470px;
+  height: 610px;
+  background-color: #4A5568;
+  opacity: 50%;
+  border-radius: 5px;
+  position: relative; /* Removes absolute positioning */
+  z-index: 1;
+  bottom:-150px;
 }
 
-/* Background Image Container */
+/* Background Image Container */top
 .background-Image-Hills {
     position: relative;
 }
@@ -24,8 +23,8 @@
 .Hills-Image {
     position: absolute;
     border-radius: 5px;
-    bottom: -300px;
-    left: 20px;
+    bottom: 400px;
+    left: 125px;
     width: 480px;
     height: 280px;
     object-fit: cover;
@@ -35,16 +34,17 @@
 
 /* ContentBox Positioned */
 .ContentBox {
-    position: absolute;
-    bottom: 100px;
-    left: 20px;
-    width: 480px;
-    height: 350px;
-    background-color: #2A2D34;
-    border-radius: 5px;
-    display: flex;
-    justify-content: center;
-    z-index: 3;
+  width: 480px;
+  height: 350px;
+  background-color: #2A2D34;
+  border-radius: 5px;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  z-index: 3;
+  position: relative; /* Removes absolute positioning */
+  bottom: 185px;
+  left: 30px;
 }
 
 /* Fade Circle Positioned at the Top Center */
@@ -76,14 +76,16 @@
 }
 
 .PiyushGoyal-Text{
-    margin-top: 65px;
+    /* margin-top: 65px; */
     color: #DADADA;
     font-weight: bold;
+    text-align: center;
+    padding-top: 12%;
 }
 
 
 /* Running Text CSS Code */
-.Running-TExt-Div{
+.Running-Text-Div{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -108,8 +110,6 @@
 }
 
 
-
-
 .All-Icons {
     display: flex;
     align-items: center;
@@ -119,29 +119,29 @@
     font-size: 20px;
     align-items: center;
     transition: 0.5s; 
-    margin-top: 30px;
+    margin-top: 25px;
 }
 
 .All-Icons .linkdin:hover{
-    color: #0077B5;
+    color: #3C9D9B;
     transition: 0.5s;
     cursor: pointer;
 }
 
 .All-Icons .facebook:hover{
-    color: #1877F2;
+    color: #3C9D9B;
     transition: 0.5s;
     cursor: pointer;
 }
 
 .All-Icons .github:hover{
-    color: #171515;
+    color: #3C9D9B;
     transition: 0.5s;
     cursor: pointer;
 }
 
 .All-Icons .stackflow:hover{
-    color: #ef8236;
+    color: #3C9D9B;
     transition: 0.5s;
     cursor: pointer;
 }
@@ -159,7 +159,7 @@
     left: 0;
     width: 100%; 
     border-top: 1px solid #4A4A4A; 
-    margin-bottom: 0; 
+    /* margin-bottom: 0;  */
 }
 
 .Button {
@@ -176,6 +176,26 @@
     height: 40px; 
     cursor: pointer;
     transition: color 0.3s, transform 0.3s;
+}
+
+.Buttonn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1; 
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    color: #DADADA;
+    padding: 15px 0;
+    height: 40px; 
+    cursor: pointer;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.Buttonn:hover {
+    color: #3C9D9B;
+    transform: translateX(3px);
 }
 
 

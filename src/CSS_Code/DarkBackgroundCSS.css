@@ -3,7 +3,7 @@
   position: relative;
   width: 100vw;
   height: 100vh;
-  /* overflow: hidden; */
+  overflow: hidden;
   display: flex;
 }
 
@@ -19,7 +19,28 @@
 }
 
 /* Overlay Content Styling */
+/* Overlay Content Styling */
 .LeftAndRightBoxContent {
   position: relative;
   z-index: 2;
+  display: flex;
+  justify-content: center; /* Centers content horizontally */
+  align-items: center; /* Centers content vertically */
+  height: 100vh; /* Full viewport height */
+  width: 100vw; /* Full viewport width */
+}
+
+/* Right Side Content Styling */
+.RightSideContent {
+  height: 585px;
+  width: 615px;
+  background-color: #2A2D34;
+  margin: 30px; /* Adds spacing between boxes */
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  overflow-y: auto;
+}
+
+::-webkit-scrollbar {
+  display: none; /* Hides scrollbar */
 }

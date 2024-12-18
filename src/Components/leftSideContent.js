@@ -1,7 +1,7 @@
 import "../CSS_Code/leftSideContentCSS.css";
 import { useEffect, useState } from "react";
 import BackgroundImage from "../Assets/Walpaper.jpg";
-import ProfileImage from "../Assets/ProfileImage.jpg";
+import ProfileImage from "../Assets/PiyushGoyalImage.jpeg";
 import { FaLinkedinIn } from "react-icons/fa6";
 import { FaFacebook } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
@@ -35,7 +35,7 @@ function LeftSideContent() {
 
                     <h1 className="PiyushGoyal-Text">Piyush Goyal</h1>
 
-                    <div className="Running-TExt-Div">
+                    <div className="Running-Text-Div">
                         {/* <h1>I'm</h1> */}
                         <span className="Running-Text">
                             {text}
@@ -62,7 +62,7 @@ function LeftSideContent() {
                         <div className="Button">
                             PORTFOLIO <FaDownload className="button-icon" />
                         </div>
-                        <div className="Button">
+                        <div className="Buttonn">
                             CONTACT ME <FaArrowRight className="button-icon" />
                         </div>
                     </div>
