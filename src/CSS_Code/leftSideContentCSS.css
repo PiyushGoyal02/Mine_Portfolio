@@ -45,7 +45,7 @@
 
 .Icon:hover{
     cursor: pointer;
-    color: #3C9D9B;
+    color: #F2A900;
     transition: 0.5s;
 }
 
@@ -123,7 +123,7 @@
 
 .Running-Text{
     font-weight: bold;
-    color: #3C9D9B;
+    color: #F2A900;
 }
 
 .Cursor-Color{
@@ -158,25 +158,25 @@
 }
 
 .All-Icons .linkdin:hover{
-    color: #3C9D9B;
+    color: #F2A900;
     transition: 0.5s;
     cursor: pointer;
 }
 
 .All-Icons .facebook:hover{
-    color: #3C9D9B;
+    color: #F2A900;
     transition: 0.5s;
     cursor: pointer;
 }
 
 .All-Icons .github:hover{
-    color: #3C9D9B;
+    color: #F2A900;
     transition: 0.5s;
     cursor: pointer;
 }
 
 .All-Icons .stackflow:hover{
-    color: #3C9D9B;
+    color: #F2A900;
     transition: 0.5s;
     cursor: pointer;
 }
@@ -229,7 +229,7 @@
 }
 
 .Buttonn:hover {
-    color: #3C9D9B;
+    color: #F2A900;
     transform: translateX(3px);
 }
 
@@ -242,6 +242,6 @@
 
 /* Hover Effect */
 .Button:hover {
-    color: #3C9D9B;
+    color: #F2A900;
     transform: translateX(3px);
 }

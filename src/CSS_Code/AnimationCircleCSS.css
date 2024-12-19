@@ -29,21 +29,21 @@
 /* Orbit Base */
 .orbit {
   position: absolute;
-  border: 1px solid #3C9D9B;
+  border: 1px solid #F2A900;
   border-radius: 50%;
 }
 
 /* Orbit 1 - Outer Circle - Rotate Left */
 .orbit-1 {
-  width: 350px;
-  height: 350px;
+  width: 300px;
+  height: 300px;
   animation: rotate-left 10s infinite linear;
 }
 
 /* Orbit 2 - Inner Circle - Rotate Right */
 .orbit-2 {
-  width: 220px;
-  height: 220px;
+  width: 200px;
+  height: 200px;
   animation: rotate-right 10s infinite linear;
 }
 
