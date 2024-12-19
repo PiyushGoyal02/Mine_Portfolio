@@ -13,6 +13,7 @@ import { MdOutlinePerson4 } from "react-icons/md";
 import { LuSquareMenu } from "react-icons/lu";
 import { FaPaperPlane } from "react-icons/fa";
 
+
 function LeftSideContent() {
 
     // Running Text
@@ -24,14 +25,26 @@ function LeftSideContent() {
         deleteSpeed: 50, // Speed of deleting
     });
 
+    // function AboutSectionHandler () {
+
+    // }
+
+    // function ProjectSectionHandler () {
+
+    // }
+
+    // function ContactSectionHandler () {
+
+    // }
+
     return (
         <div className="LeftSideContentDiv">
             <div className="Fade-Green-Box"></div>
 
             <div className="Three-Icons-Div">
-                <MdOutlinePerson4 className="Icon"/>
-                <LuSquareMenu className="Icon"/>
-                <FaPaperPlane className="Icon"/>
+                <MdOutlinePerson4 className="Icon" title="About" />
+                <LuSquareMenu className="Icon" title="Projects" />
+                <FaPaperPlane className="Icon" title="Contact" />
             </div>
 
             <div className="background-Image-Hills">
@@ -58,11 +71,20 @@ function LeftSideContent() {
 
                     {/* Social Media Icons */}
                     <div className="All-Icons">
-                        <FaLinkedinIn className="linkdin" />
-                        <FaFacebook className="facebook" />
-                        <FaGithub className="github" />
-                        <FaStackOverflow className="stackflow" />
+                        <a href="www.linkedin.com/in/piyush-goyal-570588235" target="_blank" rel="noopener noreferrer">
+                            <FaLinkedinIn className="linkdin"/>
+                        </a>
+                        <a href="https://www.facebook.com/piyush.goyal.52687" target="_blank" rel="noopener noreferrer">
+                            <FaFacebook className="facebook" />
+                        </a>
+                        <a href="https://github.com/your-profile" target="_blank" rel="noopener noreferrer">
+                            <FaGithub className="github" />
+                        </a>
+                        <a href="https://stackoverflow.com/users/23054479/piyush-goyal" target="_blank" rel="noopener noreferrer">
+                            <FaStackOverflow className="stackflow" />
+                        </a>
                     </div>
+
 
                     {/* Button Section */}
                     <div className="Button-Container">
