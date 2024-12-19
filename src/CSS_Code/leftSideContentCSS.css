@@ -5,13 +5,14 @@
 /* Green Fade Box */
 .Fade-Green-Box {
   width: 470px;
-  height: 610px;
+  height: 630px;
   background-color: #4A5568;
   opacity: 50%;
   border-radius: 5px;
   position: relative; /* Removes absolute positioning */
   z-index: 1;
-  bottom:-150px;
+  bottom:-180px;
+  margin-left: 5%;
 }
 
 /* Background Image Container */top
@@ -19,12 +20,41 @@
     position: relative;
 }
 
+.Three-Icons-Div {
+  background-color: #2A2D34;
+  display: flex;
+  width: 5%;
+  height: 150px;
+  border-radius: 5px;
+  flex-direction: column;
+  position: absolute;
+  color: #DADADA;
+  top: 22%; 
+  left: 8.2%; 
+  transform: translate(-50%, -50%); 
+  z-index: 2; 
+  justify-content: center; 
+  align-items: center; 
+  gap: 18px; 
+}
+
+.Icon{
+    font-size: 25px;
+    transition: 0.5s;
+}
+
+.Icon:hover{
+    cursor: pointer;
+    color: #3C9D9B;
+    transition: 0.5s;
+}
+
 /* Hills Image Styling */
 .Hills-Image {
     position: absolute;
     border-radius: 5px;
-    bottom: 400px;
-    left: 125px;
+    bottom: 390px;
+    left: 149px;
     width: 480px;
     height: 280px;
     object-fit: cover;
@@ -44,7 +74,7 @@
   z-index: 3;
   position: relative; /* Removes absolute positioning */
   bottom: 185px;
-  left: 30px;
+  left: 38px;
 }
 
 /* Fade Circle Positioned at the Top Center */

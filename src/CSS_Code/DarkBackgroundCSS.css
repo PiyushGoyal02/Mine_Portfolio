@@ -32,13 +32,13 @@
 
 /* Right Side Content Styling */
 .RightSideContent {
-  height: 585px;
+  height: 590px;
   width: 615px;
   background-color: #2A2D34;
-  margin: 30px; /* Adds spacing between boxes */
   border-bottom-right-radius: 5px;
   border-top-right-radius: 5px;
   overflow-y: auto;
+  margin-left: 2%;
 }
 
 ::-webkit-scrollbar {

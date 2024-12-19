@@ -29,7 +29,7 @@
 /* Orbit Base */
 .orbit {
   position: absolute;
-  border: 1px solid #4caf50;
+  border: 1px solid #3C9D9B;
   border-radius: 50%;
 }
 
@@ -50,8 +50,8 @@
 /* Icons Setup */
 .icon {
   position: absolute;
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   object-fit: contain; /* Ensures images scale properly */
 }
 

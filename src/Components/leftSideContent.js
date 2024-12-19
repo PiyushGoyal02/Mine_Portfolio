@@ -9,6 +9,9 @@ import { FaStackOverflow } from "react-icons/fa";
 import { FaDownload } from "react-icons/fa"; // For download icons
 import { FaArrowRight } from "react-icons/fa"; // For arrow icon
 import { useTypewriter, Cursor } from "react-simple-typewriter"
+import { MdOutlinePerson4 } from "react-icons/md";
+import { LuSquareMenu } from "react-icons/lu";
+import { FaPaperPlane } from "react-icons/fa";
 
 function LeftSideContent() {
 
@@ -24,6 +27,13 @@ function LeftSideContent() {
     return (
         <div className="LeftSideContentDiv">
             <div className="Fade-Green-Box"></div>
+
+            <div className="Three-Icons-Div">
+                <MdOutlinePerson4 className="Icon"/>
+                <LuSquareMenu className="Icon"/>
+                <FaPaperPlane className="Icon"/>
+            </div>
+
             <div className="background-Image-Hills">
                 <img src={BackgroundImage} className="Hills-Image" />
             </div>

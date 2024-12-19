@@ -1,6 +1,6 @@
 .AboutSectionSecondDiv{
     /* margin-left: 2%; */
-    padding: 2%;
+    padding: 4%;
 }
 
 .HR-Tag{
@@ -27,4 +27,25 @@
 
 .Skill-Div{
     margin-top: 12%;
+}
+
+.HFourTag-Span-Div{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    line-height: 0.1;
+}
+
+.HFourTag-SpanTag{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.SpanTag-Text{
+    color: lightslategray;
+}
+
+.HFour-Text{
+    color: #3C9D9B;
 }
