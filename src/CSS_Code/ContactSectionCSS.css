@@ -1,0 +1,64 @@
+.ContactSectionDiv{
+    padding: 3%;
+}
+
+.HOne-Text{
+    color: #dadada;
+    margin-bottom: 25px;
+}
+
+.HR-Tag{
+    opacity: 10%;
+    margin-left: 1.5%;
+}
+
+.FirstAlphabetText{
+    margin-left: 4%;
+    color: #F2A900;
+    border-bottom: 1px solid #F2A900;
+}
+
+.GoogleMap{
+    border-radius: 2px;
+    padding-left:4% ;
+    margin-top: 4.5%;
+}
+
+.ContectSectionDetails{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Contact-DetailsTextDiv{
+    line-height: 0.1;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+}
+
+.DetailsText{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+}
+
+.DetailsText h4 {
+    color: #777;
+    font-size: 13.5px;
+}
+
+.DetailsText span {
+    color: #dadada;
+    font-size: 15px;
+}
+
+
+.Ping-Me-Div{
+    margin-top: 45px;
+}
+
+.pingone{
+    margin-left: 4%;
+}

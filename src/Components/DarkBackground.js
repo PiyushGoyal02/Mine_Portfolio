@@ -25,9 +25,9 @@ function DarkBackground() {
 
         {/* Right-Side Content Rendering */}
         <div className="RightSideContent">
-          <AboutSectionContent />
-          {/* <ProjectSection />
-          <ContactSection /> */}
+          {/* <AboutSectionContent />
+          <ProjectSection /> */}
+          <ContactSection />
         </div>
       </div>
     </div>
