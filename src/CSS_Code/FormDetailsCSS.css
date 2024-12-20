@@ -1,7 +1,7 @@
 /* Form.css */
-.form-container{
-    padding: 4%;
-    margin-top: 3%;
+.form-container {
+  padding: 4%;
+  margin-top: 3%;
 }
 
 form {
@@ -29,7 +29,8 @@ label {
   color: #b3b3b3;
 }
 
-input, textarea {
+input,
+textarea {
   background-color: transparent; /* Transparent input for same look */
   border: none;
   border-bottom: 2px solid #555;
@@ -40,11 +41,13 @@ input, textarea {
   transition: border-color 0.3s ease;
 }
 
-input::placeholder, textarea::placeholder {
+input::placeholder,
+textarea::placeholder {
   color: #777;
 }
 
-input:focus, textarea:focus {
+input:focus,
+textarea:focus {
   border-bottom: 2px solid #fff;
 }
 
@@ -53,37 +56,40 @@ textarea {
   height: 80px; /* Reduced height */
 }
 
-
-.SendButton-RightIcon{
-    display: flex;
-    align-items: center;
-    justify-content: start;
-    color: #dadada;
-    margin-bottom: 5%;
-    margin-top: 3%;
-    gap: 6px;
-    transition: 0.5s;
+.SendButton-RightIcon {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  color: #dadada;
+  margin-bottom: 5%;
+  margin-top: 3%;
+  gap: 6px;
+  transition: 0.5s;
 }
 
-.send-button{
-    border-style: none;
-    background: transparent;
-    color: #dadada;
-    font-weight: 600;
-    font-size: 16px;
-    transition: 0.5s;
+.send-button {
+  border-style: none;
+  background: transparent;
+  color: #dadada;
+  font-weight: 600;
+  font-size: 16px;
+  transition: 0.5s;
 }
 
-.send-button:hover{
-    color: #F2A900;
-    transition: 0.5s;
-    cursor: pointer;
-    transform: translateX(3px);
+.send-button:hover {
+  color: #f2a900;
+  transition: 0.5s;
+  cursor: pointer;
+  transform: translateX(3px);
 }
 
-.SendButton-RightIcon:hover{
-    cursor: pointer;
-    color: #F2A900;
-    transition: 0.5s;
-    transform: translateX(3px);
+.SendButton-RightIcon:hover {
+  cursor: pointer;
+  color: #f2a900;
+  transition: 0.5s;
+  transform: translateX(3px);
+}
+
+.TextArea-Text {
+  line-height: 1.5;
 }
