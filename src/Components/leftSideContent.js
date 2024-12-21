@@ -41,11 +41,11 @@ function LeftSideContent() {
         <div className="LeftSideContentDiv">
             <div className="Fade-Green-Box"></div>
 
-            <div className="Three-Icons-Div">
-                <MdOutlinePerson4 className="Icon" title="About" />
-                <LuSquareMenu className="Icon" title="Projects" />
-                <FaPaperPlane className="Icon" title="Contact" />
-            </div>
+            {/* <div className="Three-Icons-Div">
+                <button className="IconsButtons"><MdOutlinePerson4 className="Icon" title="About" /></button>
+                <button className="IconsButtons"><LuSquareMenu className="Icon" title="Projects" /></button>
+                <button className="IconsButtons"><FaPaperPlane className="Icon" title="Contact" /></button>
+            </div> */}
 
             <div className="background-Image-Hills">
                 <img src={BackgroundImage} className="Hills-Image" />

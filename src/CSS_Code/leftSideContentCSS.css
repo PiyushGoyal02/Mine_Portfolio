@@ -20,35 +20,6 @@
     position: relative;
 }
 
-.Three-Icons-Div {
-  background-color: #2A2D34;
-  display: flex;
-  width: 5%;
-  height: 150px;
-  border-radius: 5px;
-  flex-direction: column;
-  position: absolute;
-  color: #DADADA;
-  top: 22%; 
-  left: 8.2%; 
-  transform: translate(-50%, -50%); 
-  z-index: 2; 
-  justify-content: center; 
-  align-items: center; 
-  gap: 18px; 
-}
-
-.Icon{
-    font-size: 25px;
-    transition: 0.5s;
-}
-
-.Icon:hover{
-    cursor: pointer;
-    color: #F2A900;
-    transition: 0.5s;
-}
-
 /* Hills Image Styling */
 .Hills-Image {
     position: absolute;

@@ -18,38 +18,124 @@
   z-index: 1; /* Keeps the video behind the overlay content */
 }
 
+.IconsButtons{
+  color: #dadada;
+  border-style: none;
+  background-color: transparent;
+}
 
 .Three-Icons-Div {
-  background-color: #2A2D34;
+  background-color: #2a2d34;
   display: flex;
   width: 5%;
   height: 150px;
   border-radius: 5px;
   flex-direction: column;
   position: absolute;
-  color: #DADADA;
-  top: 22%; 
-  left: 8.2%; 
-  transform: translate(-50%, -50%); 
-  z-index: 2; 
-  justify-content: center; 
-  align-items: center; 
-  gap: 18px; 
+  color: #dadada;
+  top: 22%;
+  left: 8.2%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  justify-content: center;
+  align-items: center;
+  gap: 18px;
 }
 
-.Icon{
-    font-size: 25px;
-    transition: 0.5s;
+.Icon {
+  font-size: 25px;
+  transition: 0.5s;
 }
 
-.Icon:hover{
-    cursor: pointer;
-    color: #3C9D9B;
-    transition: 0.5s;
+.Icon:hover {
+  cursor: pointer;
+  color: #f2a900;
+  transition: 0.5s;
 }
 
+/* Tooltip: About */
+.custom-tooltipAbout {
+  visibility: hidden;
+  background-color: #f2a900; /* Tomato */
+  color: #2a2d34;
+  font-weight: 500;
+  letter-spacing: 0.8px;
+  text-align: center;
+  padding: 8px 10px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 113px; /* Position above the button */
+  left: 89px;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  z-index: 1;
+  font-size: 11px;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out, visibility 0.2s ease-in-out;
+  transition: 0.5s;
+}
 
+.IconsButtons:hover .custom-tooltipAbout {
+  visibility: visible;
+  opacity: 1;
+  transition: 0.5s;
+}
 
+/* Tooltip: Projects */
+.custom-tooltipProject {
+  visibility: hidden;
+  background-color: #f2a900; /* Green */
+  color: #2a2d34;
+  font-weight: 500;
+  letter-spacing: 0.8px;
+  text-align: center;
+  padding: 8px 10px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 65px; /* Position above the button */
+  left: 98px;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  z-index: 1;
+  font-size: 11px;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out, visibility 0.2s ease-in-out;
+  transition: 0.5s;
+}
+
+.IconsButtons:hover .custom-tooltipProject {
+  visibility: visible;
+  opacity: 1;
+  transition: 0.5s;
+}
+
+/* Tooltip: Contact */
+.custom-tooltipContact {
+  visibility: hidden;
+  background-color: #f2a900; /* Dodger Blue */
+  color: #2a2d34;
+  font-weight: 500;
+  letter-spacing: 0.8px;
+  text-align: center;
+  padding: 8px 10px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 15px; /* Position above the button */
+  left: 98px;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  z-index: 1;
+  font-size: 11px;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out, visibility 0.2s ease-in-out;
+  transition: 0.5s;
+}
+
+.IconsButtons:hover .custom-tooltipContact {
+  visibility: visible;
+  opacity: 1;
+  transition: 0.5s;
+}
 
 /* .LeftSide{
   position: absolute;
@@ -71,7 +157,7 @@
 .RightSideContent {
   height: 590px;
   width: 615px;
-  background-color: #2A2D34;
+  background-color: #2a2d34;
   border-bottom-right-radius: 5px;
   border-top-right-radius: 5px;
   overflow-y: auto;
