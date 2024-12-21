@@ -9,9 +9,6 @@ import { FaStackOverflow } from "react-icons/fa";
 import { FaDownload } from "react-icons/fa"; // For download icons
 import { FaArrowRight } from "react-icons/fa"; // For arrow icon
 import { useTypewriter, Cursor } from "react-simple-typewriter"
-import { MdOutlinePerson4 } from "react-icons/md";
-import { LuSquareMenu } from "react-icons/lu";
-import { FaPaperPlane } from "react-icons/fa";
 
 
 function LeftSideContent() {
@@ -25,27 +22,9 @@ function LeftSideContent() {
         deleteSpeed: 50, // Speed of deleting
     });
 
-    // function AboutSectionHandler () {
-
-    // }
-
-    // function ProjectSectionHandler () {
-
-    // }
-
-    // function ContactSectionHandler () {
-
-    // }
-
     return (
         <div className="LeftSideContentDiv">
             <div className="Fade-Green-Box"></div>
-
-            {/* <div className="Three-Icons-Div">
-                <button className="IconsButtons"><MdOutlinePerson4 className="Icon" title="About" /></button>
-                <button className="IconsButtons"><LuSquareMenu className="Icon" title="Projects" /></button>
-                <button className="IconsButtons"><FaPaperPlane className="Icon" title="Contact" /></button>
-            </div> */}
 
             <div className="background-Image-Hills">
                 <img src={BackgroundImage} className="Hills-Image" />
