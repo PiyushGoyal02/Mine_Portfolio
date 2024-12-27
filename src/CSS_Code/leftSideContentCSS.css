@@ -152,6 +152,19 @@
     cursor: pointer;
 }
 
+.SocialMedia-Icons{
+    color: #DADADA;
+    width: max-content;
+    border-style: none;
+    background-color: transparent;
+}
+
+.SocialMedia-Icons:hover{
+    color: #F2A900;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
 
 
 
@@ -179,9 +192,15 @@
     color: #DADADA;
     padding: 15px 0;
     border-right: 1px solid #4A4A4A;
-    height: 40px; 
+    height: 68px; 
     cursor: pointer;
     transition: color 0.3s, transform 0.3s;
+    border-style: none;
+    background-color: transparent;
+}
+
+.div{
+    border-right: 1px solid #4A4A4A;
 }
 
 .Buttonn{
@@ -197,6 +216,8 @@
     height: 40px; 
     cursor: pointer;
     transition: color 0.3s, transform 0.3s;
+    border-style: none;
+    background-color: transparent;
 }
 
 .Buttonn:hover {
@@ -215,4 +236,14 @@
 .Button:hover {
     color: #F2A900;
     transform: translateX(3px);
+}
+
+.ButtonSecondDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ButtonSecondDiv p {
+    font-weight: 500;
 }

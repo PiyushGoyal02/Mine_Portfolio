@@ -1,0 +1,35 @@
+.Key-Features{
+    margin-top: -1.5%;
+    color: #F2A900;
+    margin-left: 3.5%;
+}
+
+.prokect-Details-Points{
+    display: flex;
+    align-items: start;
+    justify-content: flex-start;
+    gap: 5px;
+}
+
+.icon-RightArrow{
+    color: #F2A900;
+}
+
+.icon-Handing{
+    display: flex;
+    align-items: center;
+}
+
+.Point-Hading{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    opacity: 70%;
+    color: #F2A900;
+}
+
+.Text {
+    color: #dadada;
+    opacity: 70%;
+    line-height: 20px;
+}

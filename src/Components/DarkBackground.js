@@ -5,9 +5,11 @@ import LeftSideContent from "../Components/leftSideContent";
 import AboutSectionContent from "./RightSideContent/AboutSection";
 import ProjectSection from "../Components/RightSideContent/ProjectSection";
 import ContactSection from "../Components/RightSideContent/ContactSection";
+import ExperienceSection from "../Components/RightSideContent/ExperienceSection"; // Import the Experience section
 import { MdOutlinePerson4 } from "react-icons/md";
 import { LuSquareMenu } from "react-icons/lu";
 import { FaPaperPlane } from "react-icons/fa";
+import { DiCodeigniter } from "react-icons/di";
 
 function DarkBackground() {
   const [selectedComponent, setSelectedComponent] = useState("about");
@@ -18,6 +20,8 @@ function DarkBackground() {
         return <AboutSectionContent />;
       case "projects":
         return <ProjectSection />;
+      case "experience":
+        return <ExperienceSection />;
       case "contact":
         return <ContactSection />;
       default:
@@ -44,7 +48,7 @@ function DarkBackground() {
       </div>
 
       {/* Icon Section */}
-      <div className="Three-Icons-Div">
+      <div className="Four-Icons-Div">
         <button
           className="IconsButtons"
           onClick={() => setSelectedComponent("about")}
@@ -52,6 +56,7 @@ function DarkBackground() {
           <MdOutlinePerson4 className="Icon" />
           <span className="custom-tooltipAbout">ABOUT</span>
         </button>
+
         <button
           className="IconsButtons"
           onClick={() => setSelectedComponent("projects")}
@@ -59,6 +64,15 @@ function DarkBackground() {
           <LuSquareMenu className="Icon" />
           <span className="custom-tooltipProject">PROJECT</span>
         </button>
+
+        <button
+          className="IconsButtons"
+          onClick={() => setSelectedComponent("experience")}
+        >
+          <DiCodeigniter className="Icon" />
+          <span className="custom-tooltipExperience">EXPERIENCE</span>
+        </button>
+
         <button
           className="IconsButtons"
           onClick={() => setSelectedComponent("contact")}
@@ -66,6 +80,7 @@ function DarkBackground() {
           <FaPaperPlane className="Icon" />
           <span className="custom-tooltipContact">CONTACT</span>
         </button>
+        
       </div>
     </div>
   );

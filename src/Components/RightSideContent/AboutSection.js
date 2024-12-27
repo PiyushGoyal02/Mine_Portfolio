@@ -11,9 +11,8 @@ function AboutSectionContent (){
 
                 <div>
                     <p className="AboutUs-Text"> <span className="Hello-Piyush-Line">Hello! I’m Piyush Goyal, a Full Stack Developer from India.</span> <br/>
-                        I have expertise in both back-end and front-end development, crafting seamless web experiences. My skill set includes React.js, Node.js, Express.js, MongoDB, and UI/UX design using Figma. <br/>
-                        I bring 6 months of professional experience with a USA-based company, where I contributed to developing innovative and user-friendly web solutions. I am passionate about delivering top-notch results and specialize in designing, building, and maintaining eco-friendly and visually appealing websites. <br/> 
-                        When I’m not coding, I enjoy exploring new tools and technologies to further enhance my skills. I am always ready to embrace new challenges and find creative solutions to tackle them.  
+                        I specialize in React.js, Node.js, Express.js, MongoDB, and UI/UX design using Figma, crafting seamless and visually appealing web solutions. With 6 months of professional experience at a USA-based company, I’ve honed my skills in building eco-friendly and user-friendly websites.
+                        Passionate about innovation, I enjoy exploring new tools and solving challenges with creative solutions. Let’s build something amazing together!  
                     </p>
                     <div className="HFourTag-Span-Div">
                         <div className="HFourTag-SpanTag"> <h4 className="HFour-Text">AGE...</h4> <span className="SpanTag-Text">22</span> </div>

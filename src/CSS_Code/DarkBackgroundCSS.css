@@ -24,16 +24,16 @@
   background-color: transparent;
 }
 
-.Three-Icons-Div {
+.Four-Icons-Div {
   background-color: #2a2d34;
   display: flex;
   width: 5%;
-  height: 150px;
+  height: 200px;
   border-radius: 5px;
   flex-direction: column;
   position: absolute;
   color: #dadada;
-  top: 22%;
+  top: 25%;
   left: 8.2%;
   transform: translate(-50%, -50%);
   z-index: 2;
@@ -64,7 +64,7 @@
   padding: 8px 10px;
   border-radius: 5px;
   position: absolute;
-  bottom: 113px; /* Position above the button */
+  bottom: 150px; /* Position above the button */
   left: 89px;
   transform: translateX(-50%);
   white-space: nowrap;
@@ -92,7 +92,7 @@
   padding: 8px 10px;
   border-radius: 5px;
   position: absolute;
-  bottom: 65px; /* Position above the button */
+  bottom: 102px; /* Position above the button */
   left: 98px;
   transform: translateX(-50%);
   white-space: nowrap;
@@ -109,6 +109,33 @@
   transition: 0.5s;
 }
 
+.custom-tooltipExperience{
+  visibility: hidden;
+  background-color: #f2a900; /* Dodger Blue */
+  color: #2a2d34;
+  font-weight: 500;
+  letter-spacing: 0.8px;
+  text-align: center;
+  padding: 8px 10px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 53px; /* Position above the button */
+  left: 106px;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  z-index: 1;
+  font-size: 11px;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out, visibility 0.2s ease-in-out;
+  transition: 0.5s;
+}
+
+.IconsButtons:hover .custom-tooltipExperience {
+  visibility: visible;
+  opacity: 1;
+  transition: 0.5s;
+}
+
 /* Tooltip: Contact */
 .custom-tooltipContact {
   visibility: hidden;
@@ -120,7 +147,7 @@
   padding: 8px 10px;
   border-radius: 5px;
   position: absolute;
-  bottom: 15px; /* Position above the button */
+  bottom: 3px; /* Position above the button */
   left: 98px;
   transform: translateX(-50%);
   white-space: nowrap;
